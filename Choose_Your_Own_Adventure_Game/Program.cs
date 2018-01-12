@@ -10,6 +10,12 @@ namespace Choose_Your_Own_Adventure_Game
     {
         static void Main(string[] args)
         {
+            Adventure adventure = new Adventure();
+            adventure.adventure();
+
+            Adventure exitGame = new Adventure();
+            exitGame.ExitGame();
+
         }
     }
 }
