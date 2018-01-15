@@ -10,11 +10,23 @@ namespace Choose_Your_Own_Adventure_Game
     {
         static void Main(string[] args)
         {
-            Adventure adventure = new Adventure();
-            adventure.adventure();
+            Player welcome = new Player();
+            string welcomeInput = welcome.Welcome();
 
-            Adventure exitGame = new Adventure();
-            exitGame.ExitGame();
+            while (welcomeInput != "B")
+            {
+                Console.WriteLine("Please enter valid input.");
+                welcomeInput = Console.ReadLine();
+            }
+
+            while (welcomeInput == "B")
+            {
+                Adventure adventure = new Adventure();
+                adventure.adventure();
+                Player exitGameOrRestart = new Player();
+                exitGameOrRestart.ExitOrRestartGame();
+            }
+
 
         }
     }

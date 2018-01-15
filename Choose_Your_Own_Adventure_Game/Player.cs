@@ -10,15 +10,62 @@ namespace Choose_Your_Own_Adventure_Game
     {
 
         // member variables
-        //public string playerCurrentLocation = "";
+        public double healthInitial;
+        public double healthPercentageCurrent;
+        public string userInput;
 
         // constructor
-        //public Player(string playerCurrentLocation)
-        //{
-        //    this.playerCurrentLocation = "Starting location";
-        //}
+        public Player()
+        {
 
-        // member methods
+        }
+
+        //member methods
+        public string Welcome()
+        {
+            Console.WriteLine("CHOOSE YOUR OWN ADVENTURE\n");
+            Console.WriteLine("Enter B to begin the game.");
+            userInput = Console.ReadLine();
+            return userInput;
+        }
+
+        public double HealthInitialDisplay()
+        {
+            healthInitial = 100;
+            Console.WriteLine("Health level: " + healthInitial + "%");
+            return healthInitial;
+        }
+        
+        public double healthPercentageDeduction(double currentHealth)
+        {
+            healthPercentageCurrent = currentHealth - 25;
+            return healthPercentageCurrent;
+        }
+
+        public void healthPercentageDisplay(double healthPercentageCurrent)
+        {
+            Console.WriteLine("Health level: " + healthPercentageCurrent + "%");
+        }
+
+        public void ExitOrRestartGame()
+        {
+            Console.WriteLine("Enter E to exit the game.");
+            Console.WriteLine("Enter R to play again.");
+            string exitGameOrRestart = Console.ReadLine();
+            if (exitGameOrRestart == "E")
+            {
+                Environment.Exit(0);
+            }
+            while (exitGameOrRestart == "R")
+            {
+                Adventure adventure = new Adventure();
+                adventure.adventure();
+                Player exitOrRestart = new Player();
+                exitOrRestart.ExitOrRestartGame();
+
+            }
+        }
+
 
     }
 }
