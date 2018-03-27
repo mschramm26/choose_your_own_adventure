@@ -4,3 +4,9 @@ C:\Users\Melissa-Acer\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adve
 C:\Users\Melissa-Acer\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\obj\Debug\Choose_Your_Own_Adventure_Game.csprojResolveAssemblyReference.cache
 C:\Users\Melissa-Acer\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\obj\Debug\Choose_Your_Own_Adventure_Game.exe
 C:\Users\Melissa-Acer\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\obj\Debug\Choose_Your_Own_Adventure_Game.pdb
+C:\Users\Melissa\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\bin\Debug\Choose_Your_Own_Adventure_Game.exe.config
+C:\Users\Melissa\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\obj\Debug\Choose_Your_Own_Adventure_Game.exe
+C:\Users\Melissa\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\obj\Debug\Choose_Your_Own_Adventure_Game.pdb
+C:\Users\Melissa\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\bin\Debug\Choose_Your_Own_Adventure_Game.exe
+C:\Users\Melissa\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\bin\Debug\Choose_Your_Own_Adventure_Game.pdb
+C:\Users\Melissa\Documents\Visual Studio 2015\Projects\Choose_Your_Own_Adventure_Game\Choose_Your_Own_Adventure_Game\obj\Debug\Choose_Your_Own_Adventure_Game.csprojResolveAssemblyReference.cache

@@ -10,6 +10,7 @@ namespace Choose_Your_Own_Adventure_Game
     {
         static void Main(string[] args)
         {
+            Console.Title = "Choose Your Own Adventure Game";
             Player welcome = new Player();
             string welcomeInput = welcome.Welcome();
 
